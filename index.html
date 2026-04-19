@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Games Hub</title>
+    <icon>👾</icon>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎮 Mini Games Hub</h1>
+      <p>Your collection of fun browser games</p>
+    </header>
+
+    <main>
+      <div class="games-container">
+        <div class="game-card">
+          <h2>Tic Tac Toe</h2>
+          <button onclick="openGame('tic-tac-toe')">Play</button>
+        </div>
+
+        <div class="game-card">
+          <h2>Snake Game</h2>
+          <button onclick="openGame('snake')">Play</button>
+        </div>
+
+        <div class="game-card">
+          <h2>Coming Soon</h2>
+          <button disabled>Locked</button>
+        </div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

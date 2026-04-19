@@ -1,0 +1,83 @@
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Style the whole page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: white;
+  text-align: center;
+}
+
+/* Header styling */
+header {
+  padding: 20px;
+  background-color: #1f1f1f;
+}
+
+/* Main heading */
+h1 {
+  font-size: 2.5rem;
+}
+
+/* Subtitle */
+header p {
+  margin-top: 10px;
+  color: #aaa;
+}
+
+/* Main section */
+main {
+  padding: 20px;
+}
+
+/* Game card */
+.game-card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  margin: 20px auto;
+  width: 250px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+/* Hover effect */
+.game-card:hover {
+  transform: scale(1.05);
+}
+
+/* Container becomes grid */
+.games-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+/* Improve card */
+.game-card {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.2s;
+}
+
+/* Buttons */
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Disabled button */
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
